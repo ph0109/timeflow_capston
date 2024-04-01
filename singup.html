@@ -6,7 +6,16 @@
 
     <link href="signup.css" rel="stylesheet" />
     <script src="signup.js"></script>
-
+    <style>
+        /* 스크롤 가능하도록 설정 */
+        .privacyPolicy {
+            height: 150px; /* 약관 칸의 높이를 지정하여 스크롤이 가능하도록 함 */
+            overflow: auto; /* 내용이 벗어날 경우 스크롤이 생기도록 함 */
+            border: 1px solid #ccc; /* 경계선 추가 */
+            padding: 10px; /* 내부 여백 추가 */
+            margin-top: 20px; /* 위쪽 여백 추가 */
+        }
+    </style>
 </head>
 
 <body>
@@ -66,6 +75,24 @@
         <div class="line">
             <hr>
         </div>
+        <div class="privacyPolicy">
+            <h2>개인정보 처리방침</h2>
+            <p>
+                개인정보 처리방침
+            </p>
+            <!-- 내용이 길 경우 스크롤이 가능합니다. -->
+        </div>
+
+        <form>
+            <!-- 기존의 개인정보 동의 항목 -->
+            <p>개인정보 수집에 동의하십니까?</p>
+            <input type="radio" id="agree" name="consent" value="agree">
+            <label for="agree">동의</label><br>
+            <input type="radio" id="disagree" name="consent" value="disagree">
+            <label for="disagree">비동의</label><br>
+            <!-- 추가로 동의/비동의를 선택할 수 있는 동그란 칸 -->
+          </form>
+
         <div class="signUp">
             <button id="signUpButton" disabled onclick="signUpCheck()">가입하기</button>
         </div>
