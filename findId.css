@@ -2,8 +2,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* 화면 전체 높이 */
-    margin: 0; /* 기본 마진 제거 */
+    min-height: 100vh; 
+    margin: 0; 
 }
 
 .find-id-form {
