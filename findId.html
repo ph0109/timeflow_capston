@@ -30,7 +30,7 @@
                 <span id="name_error_message"></span>
             </div>
             <div class="form-group">
-                <label for="userPhone">전화번호:</label>
+                <label for="userPhone">생년월일:</label>
                 <input type="tel" id="userPhone" name="phone" required>
                 <span id="phone_error_message"></span>
             </div>
@@ -68,7 +68,7 @@
         }
 
         function findId(name, phone) {
-            // 아이디 찾기 로직
+            // 아이디 찾기 로직 php를 이용하여 불러오기
             if (name === "홍길동" && phone === "010-1234-5678") {
                 return "hong123";
             } else {
