@@ -1,90 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="login.css" />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-  />
-  <title>아이디 찾기</title>
-  <style>
-    .error_message {
-      color: red;
-      font-size: 12px;
-      margin-top: 5px;
-    }
-    .popup {
-      display: none;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: #f9f9f9;
-      padding: 20px;
-      border: 1px solid #ccc;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      z-index: 1000;
-      text-align: center; /* 가로로 중앙 정렬 */
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>아이디 찾기</title>
+    <link href="findId.css" rel="stylesheet"/>
+    <style>
+        /* 팝업 메시지 스타일 */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h2>TIMEFLOW</h2>
-      <div class="login_input">
-        <input type="text" name="name" placeholder="이름" />
-        <div class="error_message" id="name_error_message"></div>
-      </div>
-      <div class="login_input">
-        <input type="tel" name="phone" placeholder="전화번호" />
-        <div class="error_message" id="phone_error_message"></div>
-      </div>
-      <div class="submit_button">
-        <input type="submit" value="아이디 찾기" onclick="validateForm()" />
-      </div>
-      <div class="popup" id="popup_message"></div>
-      <div class="links">
-          <a href="login.html">로그인</a>
-      </div>
-  </div>
+    <div class="find-id-form">
+        <h2>아이디 찾기</h2>
+        <form action="/find-id" method="post" onsubmit="event.preventDefault(); validateForm();">
+            <div class="form-group">
+                <label for="userName">이름:</label>
+                <input type="text" id="userName" name="name" required>
+                <span id="name_error_message"></span>
+            </div>
+            <div class="form-group">
+                <label for="userPhone">전화번호:</label>
+                <input type="tel" id="userPhone" name="phone" required>
+                <span id="phone_error_message"></span>
+            </div>
+            <button type="submit">아이디 찾기</button>
+        </form>
+    </div>
 
-  <script>
-    function validateForm() {
-      var nameInput = document.querySelector('input[name="name"]');
-      var phoneInput = document.querySelector('input[name="phone"]');
-      var popupMessage = document.getElementById('popup_message');
-      if (nameInput.value === "") {
-        document.getElementById('name_error_message').innerHTML = "이름을 입력해주세요.";
-        document.getElementById('phone_error_message').innerHTML = "";
-        popupMessage.innerHTML = "";
-      } else if (phoneInput.value === "") {
-        document.getElementById('phone_error_message').innerHTML = "전화번호를 입력해주세요.";
-        document.getElementById('name_error_message').innerHTML = "";
-        popupMessage.innerHTML = "";
-      } else {
-        //아이디 찾기 로직
-        var foundId = findId(nameInput.value, phoneInput.value);
-        if (foundId) {
-          popupMessage.innerHTML = "아이디는 " + foundId + "입니다.";
-        } else {
-          popupMessage.innerHTML = "일치하는 아이디가 없습니다.";
+    <div id="popup_message" class="popup"></div>
+
+    <script>
+        function validateForm() {
+            var nameInput = document.querySelector('input[name="name"]');
+            var phoneInput = document.querySelector('input[name="phone"]');
+            var popupMessage = document.getElementById('popup_message');
+            if (nameInput.value === "") {
+                document.getElementById('name_error_message').innerHTML = "이름을 입력해주세요.";
+                document.getElementById('phone_error_message').innerHTML = "";
+                popupMessage.innerHTML = "";
+            } else if (phoneInput.value === "") {
+                document.getElementById('phone_error_message').innerHTML = "전화번호를 입력해주세요.";
+                document.getElementById('name_error_message').innerHTML = "";
+                popupMessage.innerHTML = "";
+            } else {
+                // 아이디 찾기 로직
+                var foundId = findId(nameInput.value, phoneInput.value);
+                if (foundId) {
+                    popupMessage.innerHTML = "아이디는 " + foundId + "입니다.";
+                } else {
+                    popupMessage.innerHTML = "일치하는 아이디가 없습니다.";
+                }
+                document.getElementById('name_error_message').innerHTML = "";
+                document.getElementById('phone_error_message').innerHTML = "";
+                popupMessage.style.display = 'block'; // 팝업 메시지를 보이도록 설정
+            }
         }
-        document.getElementById('name_error_message').innerHTML = "";
-        document.getElementById('phone_error_message').innerHTML = "";
-        popupMessage.style.display = 'block'; // 팝업 메시지를 보이도록 설정
-      }
-    }
 
-    function findId(name, phone) {
-      //아이디 찾기 로직
-      if (name === "홍길동" && phone === "010-1234-5678") {
-        return "hong123";
-      } else {
-        return null;
-      }
-    }
-  </script>
+        function findId(name, phone) {
+            // 아이디 찾기 로직
+            if (name === "홍길동" && phone === "010-1234-5678") {
+                return "hong123";
+            } else {
+                return null;
+            }
+        }
+    </script>
 </body>
 </html>
