@@ -75,7 +75,20 @@ nextBtn.addEventListener("click", () => {
   }
   renderCalendar();
 });
+
+calendarDates.addEventListener("mouseover", (event) => {
+  if (event.target.classList.contains("date")) {
+    event.target.classList.add("highlight");
+  }
+});
+
+calendarDates.addEventListener("mouseout", (event) => {
+  if (event.target.classList.contains("date")) {
+    event.target.classList.remove("highlight");
+  }
+});
 /* 
 1. 다음 버튼(nextBtn)을 클릭하면 현재 월을 다음 월로 변경하고, 연도가 바뀌어야 한다면 연도를 변경한다.
 2. 변경된 월과 연도를 바탕으로 renderCalendar 함수를 호출하여 다음 월의 캘린더를 표시한다.
 */
+
