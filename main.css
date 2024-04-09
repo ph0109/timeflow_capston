@@ -10,17 +10,19 @@ body{
 }
 
 .calendar-container {
-    width: calc(100vw - 60px); /* 화면 꽉 차게 */
+    /* width: calc(100vw - 60px);  화면 꽉 차게 */
+    width: 70%;
     height: calc(100vh - 60px); 
+    margin-left: auto; /* 왼쪽에 채팅방 */
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     padding: 10px;
-    background-color: #fdefde;
+    background-color: #83bef1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 
 .calendar-header{
     display: flex;
@@ -37,6 +39,7 @@ body{
     padding-bottom: 5px;
 }
 
+
 .day{
     padding: 5px;
     font-size: 1.5em;
@@ -46,10 +49,15 @@ body{
 .calendar-dates{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr); 
     grid-gap: 5px;
 }
 
 .date{
     cursor: pointer;
     padding: 5px;
+}
+
+.date.empty {
+    visibility: hidden;
 }
