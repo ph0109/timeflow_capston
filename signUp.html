@@ -6,7 +6,7 @@
 
     <link href="signUp.css" rel="stylesheet" />
     <script src="signUp.js"></script>
-    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script src="t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
     <style>
         /* 스크롤 가능하도록 설정 */
         .privacyPolicy {
@@ -59,15 +59,13 @@
         <div class="userInput">
             <h3 class="list">주소<span id="addresssu"></span></h3>
             <div id="address" class="int_id">
-                <span>
-                    <input type="text" id="sample" class="d_form mini line addressCheck" placeholder="우편번호">
-                    <input type="button" id="addressButton" class="d_form mini" onclick="sample4_execDaumPostcode()"value="우편번호 찾기">
-                </span>
-                <input type="text" id="sample4" class="d_form mini line" placeholder="도로명주소">
+                <input type="text" id="sample4_postcode" placeholder="우편번호">
+                <input type="button" onclick="sample4_execDaumPostcode()" value="우편번호 찾기"><br>
+                <input type="text" id="sample4_roadAddress" placeholder="도로명주소">
+                <input type="text" id="sample4_jibunAddress" placeholder="지번주소">
                 <span id="guide" style="color:#999;display:none"></span>
-                <input type="text" id="sample4" class="d_form mini line addressCheck" placeholder="상세주소">
-            </div>
-            <div id="areaError" class="error"></div>
+                <input type="text" id="sample4_detailAddress" placeholder="상세주소">
+                <input type="text" id="sample4_extraAddress" placeholder="참고항목">
         </div>
 
         <div class="gender">
@@ -85,25 +83,18 @@
         <div class="privacyPolicy">
             <h2>개인정보 처리방침</h2>
             <p>
-                개인정보 처리방침
+                내가 너희들의 정보를 앗아갈테니 그렇게 알거라 
             </p>
             <!-- 내용이 길 경우 스크롤이 가능합니다. -->
         </div>
-
-        <form>
-            <!-- 기존의 개인정보 동의 항목 -->
-            <p>개인정보 수집에 동의하십니까?</p>
-            <input type="radio" id="agree" name="consent" value="agree">
+        <input type="radio" id="agree" name="consent" value="agree">
             <label for="agree">동의</label><br>
             <input type="radio" id="disagree" name="consent" value="disagree">
             <label for="disagree">비동의</label><br>
-            <!-- 추가로 동의/비동의를 선택할 수 있는 동그란 칸 -->
-        </form>
 
         <div class="signUp">
             <button id="signUpButton" onclick="location.href = 'logIn.html'">가입하기</button>
         </div>
     </div>
 </body>
-
 </html>
