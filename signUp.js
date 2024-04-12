@@ -1,33 +1,23 @@
-document.addEventListener('DOMContentLoaded', function () {
-  var button = document.querySelector('.gender'); // 버튼 선택
-
-  button.addEventListener('click', function () { // 클릭 이벤트 리스너 추가
-    this.classList.toggle('active'); // 'active' 클래스 토글
-  });
-});
 // 휴대폰 번호 입력 부분
 function changePhone1(){
-    const phone1 = document.getElementById("phone1").value // 010
+    const phone1 = document.getElementById("phone1").value
     if(phone1.length === 3){
         document.getElementById("phone2").focus();
     }
 }
 function changePhone2(){
-    const phone2 = document.getElementById("phone2").value // 010
+    const phone2 = document.getElementById("phone2").value
     if(phone2.length === 4){
         document.getElementById("phone3").focus();
     }
 }
 function changePhone3(){
-    const phone3 = document.getElementById("phone3").value // 010
+    const phone3 = document.getElementById("phone3").value
     if(phone3.length === 4){
-      document.getElementById("sendMessage").focus();
-      document.getElementById("sendMessage").setAttribute("style","background-color:yellow;")
-      document.getElementById("sendMessage").disabled = false;
     }
 }
 
-let processID = -1;
+//let processID = -1;
 
 // 가입부분 체크
 
@@ -106,7 +96,6 @@ function signUpCheck(){
     document.getElementById("passwordError").innerHTML=""
     document.getElementById("passwordCheckError").innerHTML=""
     document.getElementById("areaError").innerHTML=""
-    document.getElementById("genderError").innerHTML=""
     
     //비동기 처리이벤트
     setTimeout(function() {
@@ -168,4 +157,17 @@ function sample4_execDaumPostcode() {
           }
       }
   }).open();
+}
+
+function change_btn(e){
+  var btns = document.querySelectorAll(".genders")
+  btns.forEach(function(btn, i) {
+    if(e.currentTarget == btn){
+      btn.classList.add("active");
+    }
+    else{
+      btn.classList.remove("active");
+    }
+  });
+  console.log(e.currentTarget);
 }

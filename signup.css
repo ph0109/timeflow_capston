@@ -92,7 +92,7 @@ div{
     font-size: 14px;
 }
 
-.actived{
+.genders:focus{
     background-color:#0056b3;
 }
 
@@ -109,11 +109,6 @@ div{
     color: white; /* 버튼의 글자색을 지정 */
     border: none; /* 버튼의 테두리를 제거 */
 }
-
-button:disabled {
-    background-color: #4e7eb3; /* 비활성화 상태일 때의 배경색 */
-}
-
 
 .error{
     font-size: 1px;
