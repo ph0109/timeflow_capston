@@ -135,3 +135,12 @@ div{
     font-weight: 700;
 }
 
+.genders:hover,
+.genders.active{
+    background:blue;
+    color:white;
+}
+.genders:visited{
+    background:blue;
+    color:white;
+}

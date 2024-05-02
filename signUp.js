@@ -57,17 +57,17 @@ function signUpCheck(){
   }
 }
 
-function change_btn(e){
+function change_btn(gender){
   var btns = document.querySelectorAll(".genders")
   btns.forEach(function(btn, i) {
-    if(e.currentTarget == btn){
+    if(gender.currentTarget == btn){
       btn.classList.add("active");
     }
     else{
       btn.classList.remove("active");
     }
   });
-  console.log(e.currentTarget);
+  console.log(gender.currentTarget);
 }
 
 const birthYearEl = document.querySelector('#birth-year')
@@ -120,3 +120,36 @@ window.onload = function(){
   })
 }
 */
+
+function Click(){
+  var agree_data;
+  if(document.getElementById("agree").checked){
+    agree_data="동의";
+  }
+  else if(document.getElementById("disagree").checked){
+    agree_data="비동의";
+  }
+  else{
+    alert("동의 버튼을 눌러주세요.");
+  }
+
+  if(agree_data.length!=0){
+    location.replace("search_list.php?id="+agree_data);
+  }
+}
+
+function Click2(){
+  var agree_data2;
+  if(document.getElementById("agree2").checked){
+    agree_data2="동의";
+  }
+  else if(document.getElementById("disagree2").checked){
+    agree_data2="비동의";
+  }
+  else{
+    alert("동의 버튼을 눌러주세요.");
+  }
+  if(agree_data2.length!=0){
+    location.replace("search_list.php?id="+agree_data2);
+  }
+}
