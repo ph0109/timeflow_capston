@@ -29,19 +29,29 @@ function generateRandomCode(length) {
   
   // 3. 팝업 창 표시 함수
   function showPopup(message) {
+    const overlay = document.createElement('div');
+    overlay.classList.add('popup-overlay');
+
     const popup = document.createElement('div');
     popup.classList.add('popup');
-    popup.textContent = message;
   
-    document.body.appendChild(popup);
+    const popupMessage = document.createElement('div');
+    popupMessage.textContent = message;
   
-    setTimeout(() => {
+    const confirmButton = document.createElement('button');
+    confirmButton.textContent = '확인';
+    confirmButton.addEventListener('click', () => {
       popup.classList.add('fade-out');
       setTimeout(() => {
         popup.remove();
       }, 500);
-    }, 2000);
+    });
+  
+    popup.appendChild(popupMessage);
+    popup.appendChild(confirmButton);
+    document.body.appendChild(popup);
   }
+  
   
   // 4. 폼 제출 이벤트 핸들러
   document.getElementById('findPasswordForm').addEventListener('submit', (event) => {
