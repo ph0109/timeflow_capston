@@ -21,6 +21,7 @@ function generateRandomCode(length) {
       .then(function(response) {
         console.log('이메일이 성공적으로 전송되었습니다.', response.status, response.text);
         showPopup('이메일을 성공적으로 전송했습니다.');
+        window.location.href = 'login.html'; /*메일을 성공적으로 전송 시*/
       }, function(error) {
         console.log('이메일 전송에 실패했습니다.', error);
         showPopup('이메일 전송에 실패했습니다.');
