@@ -36,6 +36,7 @@ window.onload = function() {
 
 // 팀 생성 버튼 클릭 시 코드 생성 및 팝업창 열기
 document.querySelector(".create-room-button").addEventListener("click", function() {
+  /*document.querySelector('.invite-popup').style.display = 'block'; //여기 오류!*/
   var roomName = document.getElementById("room-name").value;
   if (roomName.trim() !== "") {
     var generatedCode = generateRandomCode();
@@ -103,3 +104,4 @@ function openPopup(popupId) {
     });
   };
 
+  
