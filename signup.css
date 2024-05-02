@@ -144,3 +144,20 @@ div{
     background:blue;
     color:white;
 }
+
+.hide{
+    display:none;
+}
+.success-message{
+    color:blue;
+}
+.failure-message{
+    color: red;
+}
+.strongPassword-message{
+    color:red;
+}
+.email_button{
+    background-color: blue;
+    color:white;
+}
