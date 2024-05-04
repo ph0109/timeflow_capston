@@ -1,0 +1,2695 @@
+.MyPage {
+    position: relative;
+    width: 1436px;
+    height: 1024px;
+    background: #FFFFFF;
+}
+
+.Mypage {
+    position: absolute;
+    width: 1436px;
+    height: 1024px;
+    left: 9px;
+    top: 15px;
+    background: #E3E8EB;
+    border-radius: 24px;
+}
+
+.GeneralInfoPhoto {
+    position: absolute;
+    width: 995.26px;
+    height: 182.6px;
+    left: 331px;
+    top: 91px;
+}
+
+.UserProfile {
+    position: absolute;
+    width: 145px;
+    height: 20px;
+    left: 331.26px;
+    top: 91px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #384D6C;
+}
+
+.Vector75 {
+    position: absolute;
+    width: 143px;
+    height: 0px;
+    left: 333.26px;
+    top: 127.24px;
+    border: 1px solid #D0D0D0;
+}
+
+.Group9 {
+    position: absolute;
+    width: 282.42px;
+    height: 104.6px;
+    left: 331px;
+    top: 169px;
+}
+
+.Group16 {
+    position: absolute;
+    width: 105.53px;
+    height: 104.6px;
+    left: 331px;
+    top: 169px;
+    filter: drop-shadow(4px 4px 7px rgba(56, 77, 108, 0.25));
+}
+
+.Ellipse20 {
+    position: absolute;
+    visibility: hidden;
+    width: 113px;
+    height: 112.07px;
+    left: 327.26px;
+    top: 165.26px;
+    background: url(free-icon-user-149071.png);
+    border: 5px solid #384D6C;
+}
+
+.Ellipse19 {
+    position: absolute;
+    width: 105.53px;
+    height: 104.6px;
+    left: 331px;
+    top: 169px;
+    background: url(free-icon-user-149071.png);
+    border: 5px solid #FFFFFF;
+}
+
+.KimWooHee {
+    position: absolute;
+    width: 159.23px;
+    height: 24px;
+    left: 454.2px;
+    top: 197px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #384D6C;
+}
+
+.ProductDesign {
+    position: absolute;
+    width: 158.22px;
+    height: 24px;
+    left: 454.2px;
+    top: 229px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #384D6C;
+}
+
+.Row3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 56px;
+    position: absolute;
+    width: 408px;
+    height: 66px;
+    left: 918.26px;
+    top: 197px;
+}
+
+.UploadPhoto {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 2px;
+    gap: 4px;
+    width: 176px;
+    height: 56px;
+    background: #384D6C;
+    border: 1px solid #384D6C;
+    border-radius: 8px;
+}
+
+.UploadNewPhoto {
+    width: 138px;
+    height: 21px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Delete {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    width: 176px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #384D6C;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.Delete {
+    width: 49px;
+    height: 21px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #384D6C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Vector75 {
+    position: absolute;
+    width: 1038.01px;
+    height: 0px;
+    left: 335px;
+    top: 331.5px;
+    border: 1px solid #D0D0D0;
+}
+
+.Name {
+    position: absolute;
+    width: 1040px;
+    height: 192px;
+    left: 331px;
+    top: 370px;
+}
+
+.FirstName {
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 333px;
+    top: 370px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.NameField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 497px;
+    height: 52px;
+    left: 331px;
+    top: 406px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+.LastName {
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 873px;
+    top: 370px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.LastNameField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 497px;
+    height: 52px;
+    left: 873px;
+    top: 406px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+.Name {
+    position: absolute;
+    width: 1040px;
+    height: 192px;
+    left: 331px;
+    top: 370px;
+}
+
+.LastName {
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 873px;
+    top: 370px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.NameField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 497px;
+    height: 52px;
+    left: 873px;
+    top: 406px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+.FirstName {
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 333px;
+    top: 370px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.LastName {
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 873px;
+    top: 370px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.FirstNameField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 497px;
+    height: 52px;
+    left: 331px;
+    top: 406px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+.LastNameField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 497px;
+    height: 52px;
+    left: 873px;
+    top: 406px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+.UserName {
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 331px;
+    top: 474px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.UserNameField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1038px;
+    height: 52px;
+    left: 333px;
+    top: 510px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+
+.NamePlaceholder {
+    position: absolute;
+    width: 126px;
+    height: 20px;
+    left: 350px;
+    top: 526px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ABB1BB;
+}
+
+.Vector76 {
+    position: absolute;
+    width: 1038.01px;
+    height: 0px;
+    left: 335px;
+    top: 601px;
+    border: 1px solid #D0D0D0;
+}
+
+.EmailPhone {
+    position: absolute;
+    width: 497px;
+    height: 88px;
+    left: 332px;
+    top: 640px;
+}
+
+.EmailAddress {
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 334px;
+    top: 640px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.EmailField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 497px;
+    height: 52px;
+    left: 332px;
+    top: 676px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+.Mail {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 351px;
+    top: 688px;
+}
+
+.Vector {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 16.67%;
+    bottom: 16.67%;
+    background: #ABB1BB;
+}
+
+.Vector77 {
+    position: absolute;
+    width: 1038.01px;
+    height: 0px;
+    left: 331px;
+    top: 768px;
+    border: 1px solid #D0D0D0;
+}
+
+.Companies {
+    position: absolute;
+    width: 169.01px;
+    height: 160px;
+    left: 332px;
+    top: 808px;
+}
+
+.Company1 {
+    position: absolute;
+    width: 163.35px;
+    height: 42px;
+    left: 337.67px;
+    top: 852px;
+}
+
+.CompanyIcon {
+    position: absolute;
+    width: 39.66px;
+    height: 42px;
+    left: 337.67px;
+    top: 852px;
+}
+
+.BriefcaseEllipse {
+    position: absolute;
+    width: 39.66px;
+    height: 42px;
+    left: 337.67px;
+    top: 852px;
+    background: #D0D0D0;
+}
+
+.BriefcaseIcon {
+    position: absolute;
+    width: 28.72px;
+    height: 30.41px;
+    left: 343.14px;
+    top: 857.07px;
+}
+
+.TimeFlow {
+    position: absolute;
+    width: 105.75px;
+    height: 32px;
+    left: 395.26px;
+    top: 857px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #384D6C;
+}
+
+.Company2 {
+    position: absolute;
+    width: 163.35px;
+    height: 42px;
+    left: 337.67px;
+    top: 926px;
+}
+
+.CompanyIcon2 {
+    position: absolute;
+    width: 39.66px;
+    height: 42px;
+    left: 337.67px;
+    top: 926px;
+}
+
+.BriefcaseEllipse2 {
+    position: absolute;
+    width: 39.66px;
+    height: 42px;
+    left: 337.67px;
+    top: 926px;
+    background: #D0D0D0;
+}
+
+.BriefcaseIcon2 {
+    position: absolute;
+    width: 28.72px;
+    height: 30.41px;
+    left: 343.14px;
+    top: 931.07px;
+}
+
+.Vector2 {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 8.33%;
+    bottom: 16.67%;
+    background: #384D6C;
+}
+
+
+.TeamA {
+    position: absolute;
+    width: 105.75px;
+    height: 32px;
+    left: 395.26px;
+    top: 931px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #384D6C;
+}
+
+.CompaniesTitle {
+    position: absolute;
+    width: 114.25px;
+    height: 20px;
+    left: 332px;
+    top: 808px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.PeakLogo {
+    position: absolute;
+    width: 27px;
+    height: 21px;
+    left: 358px;
+    top: 843px;
+    background: url(free-icon-crown-6941697.png);
+}
+
+.Vector79 {
+    position: absolute;
+    width: 1038.01px;
+    height: 0px;
+    left: 333px;
+    top: 1138px;
+    border: 1px solid #D0D0D0;
+}
+
+.Location {
+    position: absolute;
+    width: 1040px;
+    height: 88px;
+    left: 335px;
+    top: 1195px;
+}
+
+.LocationTitle {
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 335px;
+    top: 1195px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.LocationField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1038px;
+    height: 52px;
+    left: 337px;
+    top: 1231px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+.LocationIcon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 352px;
+    top: 1246px;
+}
+
+.Vector2 {
+    position: absolute;
+    left: 13.72%;
+    right: 13.72%;
+    top: 8.41%;
+    bottom: 8.33%;
+    background: #ABB1BB;
+}
+
+.TimeZone {
+    position: absolute;
+    width: 1040px;
+    height: 88px;
+    left: 335px;
+    top: 1299px;
+}
+
+.TimeZoneTitle {
+    position: absolute;
+    width: 121px;
+    height: 20px;
+    left: 335px;
+    top: 1299px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.TimeZoneField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1038px;
+    height: 52px;
+    left: 337px;
+    top: 1335px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+.ClockIcon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 355px;
+    top: 1349px;
+}
+
+
+.Vector3 {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+    background: #ABB1BB;
+}
+
+.Vector78 {
+    position: absolute;
+    width: 1038.01px;
+    height: 0px;
+    left: 337px;
+    top: 1419px;
+    border: 1px solid #D0D0D0;
+}
+
+.Password {
+    position: absolute;
+    width: 1042px;
+    height: 192px;
+    left: 339px;
+    top: 1475px;
+}
+
+.Group13 {
+    position: absolute;
+    width: 491px;
+    height: 88px;
+    left: 339px;
+    top: 1475px;
+}
+
+.CurrentPasswordTitle {
+    position: absolute;
+    width: 151px;
+    height: 20px;
+    left: 339px;
+    top: 1475px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.CurrentPasswordField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 489px;
+    height: 52px;
+    left: 341px;
+    top: 1511px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+.KeyIcon1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 374.2px;
+    top: 1520px;
+    transform: rotate(45.79deg);
+}
+
+.Vector4 {
+    position: absolute;
+    left: 71.22%;
+    right: -54.97%;
+    top: 11.78%;
+    bottom: 4.89%;
+    background: #ABB1BB;
+    transform: rotate(45.79deg);
+}
+
+.FrameIcon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 785px;
+    top: 1525px;
+}
+
+.Vector5 {
+    position: absolute;
+    left: 9.48%;
+    right: 9.48%;
+    top: 22.92%;
+    bottom: 29.15%;
+    background: #ABB1BB;
+}
+
+.Group15 {
+    position: absolute;
+    width: 507px;
+    height: 88px;
+    left: 873px;
+    top: 1475px;
+}
+
+.NewPasswordTitle {
+    position: absolute;
+    width: 151px;
+    height: 20px;
+    left: 873px;
+    top: 1475px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.NewPasswordField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 505px;
+    height: 52px;
+    left: 875px;
+    top: 1511px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+.KeyIcon2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 913.21px;
+    top: 1520px;
+    transform: rotate(45.79deg);
+}
+
+.Vector6 {
+    position: absolute;
+    left: 71.22%;
+    right: -54.97%;
+    top: 11.78%;
+    bottom: 4.89%;
+    background: #ABB1BB;
+    transform: rotate(45.79deg);
+}
+
+.FrameIcon2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1327px;
+    top: 1525px;
+}
+
+.Vector7 {
+    position: absolute;
+    left: 9.48%;
+    right: 9.48%;
+    top: 22.92%;
+    bottom: 29.15%;
+    background: #ABB1BB;
+}
+
+.Group14 {
+    position: absolute;
+    width: 1040px;
+    height: 88px;
+    left: 341px;
+    top: 1579px;
+}
+
+.ConfirmNewPasswordTitle {
+    position: absolute;
+    width: 199px;
+    height: 20px;
+    left: 341px;
+    top: 1579px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #384D6C;
+}
+
+.ConfirmNewPasswordField {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1038px;
+    height: 52px;
+    left: 343px;
+    top: 1615px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+
+.KeyIcon3 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 374.2px;
+    top: 1625px;
+    transform: rotate(45.79deg);
+}
+
+
+.Vector8 {
+    position: absolute;
+    left: 71.22%;
+    right: -54.97%;
+    top: 11.78%;
+    bottom: 4.89%;
+    background: #ABB1BB;
+    transform: rotate(45.79deg);
+}
+
+.Frame {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1327px;
+    top: 1631px;
+}
+
+.Vector9 {
+    position: absolute;
+    left: 9.48%;
+    right: 9.48%;
+    top: 22.92%;
+    bottom: 29.15%;
+    background: #ABB1BB;
+}
+
+.SaveButton {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 19px 10px 21px;
+    gap: 8px;
+    position: absolute;
+    width: 176px;
+    height: 56px;
+    left: 1203px;
+    top: 1724px;
+    background: #384D6C;
+    border: 3px solid #384D6C;
+    border-radius: 8px;
+}
+
+.SaveButtonText {
+    width: 103px;
+    height: 21px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.CancelButton {
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    position: absolute;
+    height: 56px;
+    left: 68.06%;
+    right: 19.72%;
+    top: calc(50% - 56px/2 + 821px);
+    background: #FFFFFF;
+    border: 1px solid #384D6C;
+    border-radius: 8px;
+}
+
+.CancelButtonText {
+    width: 50px;
+    height: 21px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #384D6C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.SaveButton2 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 19px 10px 21px;
+    gap: 8px;
+    position: absolute;
+    width: 176px;
+    height: 56px;
+    left: 1214px;
+    top: 917px;
+    background: #384D6C;
+    border: 3px solid #384D6C;
+    border-radius: 8px;
+}
+
+.SaveButtonText2 {
+    width: 103px;
+    height: 21px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Rectangle1 {
+    position: absolute;
+    width: 265px;
+    height: 1861px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    box-shadow: 6px 6px 26px 5px rgba(236, 236, 236, 0.38);
+    border-radius: 0px;
+}
+
+.sideNav {
+    position: absolute;
+    width: 287px;
+    height: 1733.96px;
+    left: -24px;
+    top: 46px;
+}
+
+.SignOutButton {
+    position: absolute;
+    width: 185px;
+    height: 62.96px;
+    left: 40px;
+    top: 1717px;
+}
+
+
+.Rectangle2 {
+    position: absolute;
+    width: 185px;
+    height: 62.96px;
+    left: 40px;
+    top: 1717px;
+    border: 1px solid #384D6C;
+    border-radius: 28px;
+}
+
+.LogOut1 {
+    position: absolute;
+    width: 17.58px;
+    height: 19.24px;
+    left: 187.33px;
+    top: 1738.86px;
+}
+
+.Page1 {
+    position: absolute;
+    left: 0.05%;
+    right: 3%;
+    top: 0%;
+    bottom: 0.16%;
+}
+
+.Menu {
+    position: absolute;
+    left: 0.05%;
+    right: 3%;
+    top: 0%;
+    bottom: 0.16%;
+}
+
+.SignOutButton {
+    position: absolute;
+    left: 0.05%;
+    right: 3%;
+    top: 0%;
+    bottom: 0.16%;
+}
+
+.Logout {
+    position: absolute;
+    left: 0.05%;
+    right: 3%;
+    top: 0%;
+    bottom: 0.16%;
+}
+
+.Path1 {
+    position: absolute;
+    left: 0.05%;
+    right: 49.81%;
+    top: 0%;
+    bottom: 0.16%;
+    background: #384D6C;
+}
+
+.Path2 {
+    position: absolute;
+    left: 22.98%;
+    right: 3%;
+    top: 28.88%;
+    bottom: 29%;
+    background: #384D6C;
+}
+
+.SignOut {
+    position: absolute;
+    width: 106.73px;
+    height: 21.24px;
+    left: 60.33px;
+    top: 1733.99px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #384D6C;
+}
+
+.MenuItems {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 40px;
+    position: absolute;
+    width: 263px;
+    height: 574.59px;
+    left: 0px;
+    top: 210.51px;
+}
+
+.MenuItem {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+    width: 210px;
+    height: 28px;
+}
+
+.Group8 {
+    margin: 0 auto;
+    display: none;
+    width: 210px;
+    height: 28px;
+}
+
+.IconAndTitle {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 136px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+}
+
+.DashboardIcon {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 28px;
+    height: 28px;
+}
+
+
+.Sidebar {
+    width: 20px;
+    height: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Vector1 {
+    position: absolute;
+    left: 12.5%;
+    right: 65.62%;
+    top: 18.75%;
+    bottom: 18.75%;
+    /* colors/bg/lightolive */
+    background: #DFDFD7;
+}
+
+.Vector2 {
+    position: absolute;
+    left: 31.25%;
+    right: 62.5%;
+    top: 15.62%;
+    bottom: 15.62%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector3,
+.Vector4 {
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 15.62%;
+    bottom: 15.62%;
+    background: #000000;
+}
+
+.Vector5,
+.Vector6,
+.Vector7 {
+    position: absolute;
+    left: 9.38%;
+    right: 75%;
+    /* Adjusted percentages */
+    top: 15.62%;
+    bottom: 15.62%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Group7 {
+    width: 100px;
+    height: 22px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Dashboard {
+    position: absolute;
+    width: 100px;
+    height: 22px;
+    left: 36px;
+    top: 3px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* peak/primary */
+    color: #384D6C;
+}
+
+.Frame8 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    width: 7px;
+    height: 12px;
+    left: 203px;
+    top: 8px;
+}
+
+.SmallArrow2 {
+    width: 7px;
+    height: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.Page1,
+.Homepage,
+.BankAccountCard,
+.Group,
+.ArrowsRight,
+.LeftArrow {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.LeftArrow {
+    /* peak/primary */
+    background: #384D6C;
+    transform: rotate(-180deg);
+}
+
+.MenuItem {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+    width: 210px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.IconAndTitle {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    margin: 0 auto;
+    width: 108px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.CheckSquareOffset-d {
+    width: 28px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Vector1 {
+    position: absolute;
+    left: 17.19%;
+    right: 17.19%;
+    top: 17.19%;
+    bottom: 17.19%;
+    background: #DFDFD7;
+}
+
+.Vector2 {
+    position: absolute;
+    left: 14.06%;
+    right: 14.06%;
+    top: 14.06%;
+    bottom: 14.06%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector3 {
+    position: absolute;
+    left: 9.38%;
+    right: 46.88%;
+    top: 56.25%;
+    bottom: 12.5%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Group7 {
+    width: 72px;
+    height: 0px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.MyTasks {
+    position: absolute;
+    width: 72px;
+    height: 0px;
+    left: 36px;
+    top: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0px;
+    /* identical to box height, or 0% */
+    display: flex;
+    align-items: center;
+    /* peak/primary */
+    color: #384D6C;
+}
+
+
+
+.Frame8 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    margin: 0 auto;
+    width: 7px;
+    height: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.SmallArrow2 {
+    width: 7px;
+    height: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Page1,
+.Homepage,
+.BankAccountCard,
+.Group,
+.ArrowsRight,
+.LeftArrow {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.LeftArrow {
+    /* peak/primary */
+    background: #384D6C;
+    transform: rotate(-180deg);
+}
+
+.MenuItem {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+    width: 210px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.IconAndTitle {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    margin: 0 auto;
+    width: 150px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.UsersThree-d {
+    width: 28px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Vector1 {
+    position: absolute;
+    left: 34.38%;
+    right: 34.38%;
+    top: 39.06%;
+    bottom: 29.69%;
+    background: #DFDFD7;
+}
+
+.Vector2 {
+    position: absolute;
+    left: 10.94%;
+    right: 64.06%;
+    top: 20.31%;
+    bottom: 54.69%;
+    background: #DFDFD7;
+}
+
+.Vector3 {
+    position: absolute;
+    left: 64.06%;
+    right: 10.94%;
+    top: 20.31%;
+    bottom: 54.69%;
+    background: #DFDFD7;
+}
+
+.Vector4,
+.Vector5 {
+    position: absolute;
+    left: 31.25%;
+    right: 31.25%;
+    top: 35.94%;
+    bottom: 26.56%;
+}
+
+.Vector4 {
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector5 {
+    background: #000000;
+}
+
+.Vector6 {
+    position: absolute;
+    left: 76.56%;
+    right: 1.56%;
+    top: 42.19%;
+    bottom: 42.19%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector7 {
+    position: absolute;
+    left: 1.56%;
+    right: 73.44%;
+    top: 42.19%;
+    bottom: 42.19%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector8 {
+    position: absolute;
+    left: 24.38%;
+    right: 24.37%;
+    top: 67.2%;
+    bottom: 12.5%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector9 {
+    position: absolute;
+    left: 7.79%;
+    right: 61.17%;
+    top: 17.17%;
+    bottom: 51.56%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector10 {
+    position: absolute;
+    left: 61.17%;
+    right: 7.79%;
+    top: 17.17%;
+    bottom: 51.56%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+
+.Group7 {
+    width: 114px;
+    height: 0px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.ManageTeam {
+    position: absolute;
+    width: 114px;
+    height: 0px;
+    left: 36px;
+    top: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0px;
+    /* identical to box height, or 0% */
+    display: flex;
+    align-items: center;
+    /* peak/primary */
+    color: #384D6C;
+}
+
+.Frame8 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    margin: 0 auto;
+    width: 7px;
+    height: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.SmallArrow2 {
+    width: 7px;
+    height: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Page1,
+.Homepage,
+.BankAccountCard,
+.Group,
+.ArrowsRight,
+.LeftArrow {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.LeftArrow {
+    /* peak/primary */
+    background: #384D6C;
+    transform: rotate(-180deg);
+}
+
+.MenuItem {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+    width: 210px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.IconAndTitle {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    margin: 0 auto;
+    width: 148px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.CalendarPlus-d {
+    width: 28px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Vector1 {
+    position: absolute;
+    left: 15.62%;
+    right: 15.62%;
+    top: 15.62%;
+    bottom: 65.62%;
+    background: #DFDFD7;
+}
+
+.Vector2 {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector3,
+.Vector4 {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+}
+
+.Vector3,
+.Vector4 {
+    background: #000000;
+}
+
+.Vector5,
+.Vector6 {
+    position: absolute;
+    left: 65.62%;
+    right: 28.12%;
+    top: 6.25%;
+    bottom: 75%;
+}
+
+.Vector5,
+.Vector6 {
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector7 {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 31.25%;
+    bottom: 62.5%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector8 {
+    position: absolute;
+    left: 35.94%;
+    right: 35.94%;
+    top: 56.25%;
+    bottom: 37.5%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector9 {
+    position: absolute;
+    left: 46.88%;
+    right: 46.88%;
+    top: 45.31%;
+    bottom: 26.56%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+
+.Group7 {
+    width: 112px;
+    height: 0px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.EditSchedule {
+    position: absolute;
+    width: 112px;
+    height: 0px;
+    left: 36px;
+    top: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0px;
+    /* identical to box height, or 0% */
+    display: flex;
+    align-items: center;
+    /* peak/primary */
+    color: #384D6C;
+}
+
+.Frame8 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    margin: 0 auto;
+    width: 7px;
+    height: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.SmallArrow2 {
+    width: 7px;
+    height: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Page1,
+.Homepage,
+.BankAccountCard,
+.Group,
+.ArrowsRight,
+.LeftArrow {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.LeftArrow {
+    /* peak/primary */
+    background: #384D6C;
+    transform: rotate(-180deg);
+}
+
+.MenuItem {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+    width: 210px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.IconAndTitle {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    margin: 0 auto;
+    width: 103px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.CalendarPlus-d {
+    width: 28px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Vector1 {
+    position: absolute;
+    left: 15.62%;
+    right: 15.62%;
+    top: 15.62%;
+    bottom: 65.62%;
+    background: #DFDFD7;
+}
+
+.Vector2 {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector3,
+.Vector4 {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+}
+
+.Vector3,
+.Vector4 {
+    background: #000000;
+}
+
+.Vector5,
+.Vector6 {
+    position: absolute;
+    left: 65.62%;
+    right: 28.12%;
+    top: 6.25%;
+    bottom: 75%;
+}
+
+.Vector5,
+.Vector6 {
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector7 {
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 31.25%;
+    bottom: 62.5%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector8 {
+    position: absolute;
+    left: 35.94%;
+    right: 35.94%;
+    top: 56.25%;
+    bottom: 37.5%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector9 {
+    position: absolute;
+    left: 46.88%;
+    right: 46.88%;
+    top: 45.31%;
+    bottom: 26.56%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+
+.Group7 {
+    width: 67px;
+    height: 0px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Settings {
+    position: absolute;
+    width: 67px;
+    height: 0px;
+    left: 36px;
+    top: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0px;
+    /* identical to box height, or 0% */
+    display: flex;
+    align-items: center;
+    /* peak/primary */
+    color: #384D6C;
+}
+
+.Frame8 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    margin: 0 auto;
+    width: 7px;
+    height: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.SmallArrow2 {
+    width: 7px;
+    height: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Page1,
+.Homepage,
+.BankAccountCard,
+.Group,
+.ArrowsRight,
+.LeftArrow {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.LeftArrow {
+    /* peak/primary */
+    background: #384D6C;
+    transform: rotate(-180deg);
+}
+
+.MenuItem {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+    width: 210px;
+    height: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+.PeakLogo_Horizontal1 {
+    position: absolute;
+    width: 193px;
+    height: 119px;
+    left: 36px;
+    top: 46px;
+    background: url(로고);
+}
+
+.ActivatedLink,
+.ActivatedItem {
+    position: absolute;
+    width: 284px;
+    height: 85.33px;
+    left: -24px;
+    top: 207.67px;
+}
+
+.ActivatedItem {
+    background: #EDF6FF;
+    opacity: 0.5;
+}
+
+.Ellipse14 {
+    position: absolute;
+    width: 39px;
+    height: 55.47px;
+    left: 210px;
+    top: 224.33px;
+    background: #FFFFFF;
+}
+
+.Activated {
+    position: absolute;
+    width: 210px;
+    height: 28px;
+    left: 24px;
+    top: 232.56px;
+}
+
+.IconAndTitle {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 128px;
+    height: 28px;
+    left: 24px;
+    top: 232.56px;
+}
+
+.Sidebar-d {
+    width: 28px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.Vector1 {
+    position: absolute;
+    left: 12.5%;
+    right: 65.62%;
+    top: 18.75%;
+    bottom: 18.75%;
+    background: #DFDFD7;
+}
+
+.Vector2 {
+    position: absolute;
+    left: 31.25%;
+    right: 62.5%;
+    top: 15.62%;
+    bottom: 15.62%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector3,
+.Vector4 {
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 15.62%;
+    bottom: 15.62%;
+}
+
+.Vector3,
+.Vector4 {
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector4,
+.Vector5 {
+    background: #000000;
+}
+
+.Vector5,
+.Vector6 {
+    position: absolute;
+    left: 9.38%;
+    right: 75%;
+    top: 28.12%;
+    bottom: 65.62%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector6 {
+    position: absolute;
+    left: 9.38%;
+    right: 75%;
+    top: 40.62%;
+    bottom: 53.12%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Vector7 {
+    position: absolute;
+    left: 9.38%;
+    right: 75%;
+    top: 53.12%;
+    bottom: 40.62%;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Group7 {
+    width: 92px;
+    height: 0px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Dashboard {
+    position: absolute;
+    width: 92px;
+    height: 0px;
+    left: 36px;
+    top: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 0px;
+    /* identical to box height, or 0% */
+    display: flex;
+    align-items: center;
+    /* peak/primary */
+    color: #384D6C;
+}
+
+.Frame8 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    width: 7px;
+    height: 12px;
+    left: 227px;
+    top: 243.94px;
+}
+
+.SmallArrow2 {
+    width: 7px;
+    height: 12px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.Page1,
+.Homepage,
+.BankAccountCard,
+.Group,
+.ArrowsRight,
+.LeftArrow {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.LeftArrow {
+    box-sizing: border-box;
+    /* peak/primary */
+    background: #384D6C;
+    /* peak/primary */
+    border: 11px solid #384D6C;
+    transform: rotate(-180deg);
+}
+
+.Sign-out-button {
+    position: absolute;
+    width: 139.42px;
+    height: 44px;
+    left: 27px;
+    top: 926px;
+}
+
+.Rectangle2 {
+    position: absolute;
+    width: 125px;
+    height: 44px;
+    right: 1284px;
+    top: 926px;
+    /* peak/primary */
+    border: 1px solid #384D6C;
+    border-radius: 28px;
+}
+
+.Log-out1 {
+    position: absolute;
+    width: 14.86px;
+    height: 13.23px;
+    right: 1269.58px;
+    top: 941.9px;
+}
+
+.Page1,
+.Menu,
+.Sign-outButton,
+.logout {
+    position: absolute;
+    left: 8.84%;
+    right: 90.15%;
+    top: 91.78%;
+    bottom: 6.93%;
+}
+
+.Path1,
+.Path2 {
+    position: absolute;
+    /* peak/primary */
+    background: #384D6C;
+}
+
+.Path1 {
+    width: 7.45px;
+    height: 13.21px;
+    right: 1301.55px;
+    top: 939.8px;
+}
+
+.Path2 {
+    width: 11px;
+    height: 5.57px;
+    right: 1294.59px;
+    top: 943.63px;
+}
+
+.Sign-out {
+    position: absolute;
+    width: 90.24px;
+    height: 14.6px;
+    right: 1301.58px;
+    top: 938.55px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* peak/primary */
+    color: #384D6C;
+}
+
+.Header {
+    position: absolute;
+    width: 1174px;
+    height: 61px;
+    left: 265px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.Header-1 {
+    box-sizing: border-box;
+    position: absolute;
+    height: 72px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    /* Black/10% */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.Icon-Button {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 238px;
+    height: 50.97px;
+    right: 61px;
+    top: calc(50% - 50.97px/2 - 10.51px);
+}
+
+.Button {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Sun {
+    width: 20px;
+    height: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.Vector {
+    position: absolute;
+    left: 23.44%;
+    right: 23.44%;
+    top: 23.44%;
+    bottom: 23.44%;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.Vector:nth-child(2),
+.Vector:nth-child(3),
+.Vector:nth-child(4) {
+    background: #000000;
+}
+
+.Vector:nth-child(5),
+.Vector:nth-child(6),
+.Vector:nth-child(7),
+.Vector:nth-child(8),
+.Vector:nth-child(9),
+.Vector:nth-child(10),
+.Vector:nth-child(11),
+.Vector:nth-child(12) {
+    background: #1C1C1C;
+}
+
+.Vector:nth-child(13),
+.Vector:nth-child(14),
+.Vector:nth-child(15),
+.Vector:nth-child(16),
+.Vector:nth-child(17),
+.Vector:nth-child(18),
+.Vector:nth-child(19),
+.Vector:nth-child(20) {
+    background: #1C1C1C;
+}
+
+.Button:first-of-type {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+    display: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Button:nth-of-type(2) {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.Bell {
+    width: 20px;
+    height: 20px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.Vector {
+    position: absolute;
+    left: 12.9%;
+    right: 12.9%;
+    top: 9.37%;
+    bottom: 21.88%;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.Vector:nth-child(2),
+.Vector:nth-child(3),
+.Vector:nth-child(4) {
+    background: #000000;
+}
+
+.Vector:nth-child(5),
+.Vector:nth-child(6),
+.Vector:nth-child(7),
+.Vector:nth-child(8),
+.Vector:nth-child(9),
+.Vector:nth-child(10),
+.Vector:nth-child(11),
+.Vector:nth-child(12) {
+    background: #1C1C1C;
+}
+
+.Button:nth-of-type(3) {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+    display: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.Profile-Image {
+    width: 50px;
+    height: 50px;
+    background: url(free-icon-user-149071.png), #FFFFFF;
+    border-radius: 8px;
+    transform: rotate(-1.13deg);
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+
+.Icon-Breadcrumb {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 167px;
+    height: 28px;
+    left: 28px;
+    top: calc(50% - 28px/2);
+}
+
+.Dashboard-Icon,
+.Star-Icon {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+    display: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 0;
+}
+
+.Breadcrumb {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 167px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.Button:last-of-type {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 4px;
+    width: 66px;
+    height: 28px;
+    border-radius: 8px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Text {
+    width: 50px;
+    height: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Black/40% */
+    color: rgba(0, 0, 0, 0.4);
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Slash {
+    width: 5px;
+    height: 20px;
+    /* 14 Regular */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    /* Black/20% */
+    color: rgba(0, 0, 0, 0.2);
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Button {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 4px;
+    width: 88px;
+    height: 28px;
+    border-radius: 8px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.Text:last-of-type {
+    width: 72px;
+    height: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #384D6C;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

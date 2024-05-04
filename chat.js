@@ -10,6 +10,14 @@ function closePopup(popupClass) {
   popup.style.display = "none";
 }
 
+// 닫기 버튼 클릭 시 팝업창 닫기
+document.querySelectorAll(".close-button").forEach(function(closeButton) {
+  closeButton.addEventListener("click", function() {
+    closePopup(this.closest(".popup").classList[0]);
+  });
+});
+
+
 // 방 만들기 버튼 클릭 시 팝업창 열기
 document.querySelector(".create-room-button").addEventListener("click", function() {
   openPopup("popup");
@@ -20,12 +28,41 @@ document.querySelector(".invite-code-button").addEventListener("click", function
   openPopup("invite-popup");
 });
 
-// 닫기 버튼 클릭 시 팝업창 닫기
-document.querySelectorAll(".close-button").forEach(function(closeButton) {
-  closeButton.addEventListener("click", function() {
-    closePopup(this.closest(".popup").classList[0]);
-  });
-});
+// 초대코드 확인 함수
+function checkInviteCode() {
+  var inviteCode = document.getElementById("invite-code").value.trim();
+  var isValid = isValidInviteCode(inviteCode);
+  if (isValid) {
+    closePopup("invite-popup");
+  } else {
+    document.getElementById("invite-error-msg").style.display = "block";
+  }
+}
+
+// 초대코드 유효성 검사 함수
+function isValidInviteCode(code) {
+  // 초대코드가 비어 있는 경우 유효하지 않음
+  if (code === "") {
+    return false;
+  }
+
+  // 영문과 숫자가 섞여 있는지 확인
+  var hasLetter = false;
+  var hasNumber = false;
+
+  for (var i = 0; i < code.length; i++) {
+    var charCode = code.charCodeAt(i);
+    if ((charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122)) {
+      hasLetter = true; // 영문자가 있는 경우
+    } else if (charCode >= 48 && charCode <= 57) {
+      hasNumber = true; // 숫자가 있는 경우
+    }
+  }
+
+  // 영문과 숫자가 모두 포함되어 있으면 유효함
+  return hasLetter && hasNumber;
+}
+
 
 // 문서 로드 시 팝업창 숨기기
 window.onload = function() {
@@ -35,9 +72,8 @@ window.onload = function() {
 };
 
 // 팀 생성 버튼 클릭 시 코드 생성 및 팝업창 열기
-document.querySelector(".create-room-button").addEventListener("click", function() {
-  /*document.querySelector('.invite-popup').style.display = 'block'; //여기 오류!*/
-  var roomName = document.getElementById("room-name").value;
+document.querySelector(".create-team-button").addEventListener("click", function() {
+  var roomName = document.querySelector("#popup input[type='text']").value;
   if (roomName.trim() !== "") {
     var generatedCode = generateRandomCode();
     document.getElementById("generated-code").textContent = generatedCode;
@@ -48,7 +84,7 @@ document.querySelector(".create-room-button").addEventListener("click", function
 // 랜덤 코드 생성 함수
 function generateRandomCode() {
   var characters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var codeLength = 8;
+  var codeLength = 6; // 코드 길이를 6자리로 변경
   var code = "";
   for (var i = 0; i < codeLength; i++) {
     code += characters.charAt(Math.floor(Math.random() * characters.length));
@@ -103,5 +139,6 @@ function openPopup(popupId) {
       popup.style.display = "none";
     });
   };
+
 
   
