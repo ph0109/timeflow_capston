@@ -1,3 +1,9 @@
+// 오늘 날짜 표시
+var todayDateElement = document.getElementById('today-date');
+var today = new Date();
+var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+todayDateElement.innerText = today.toLocaleDateString('ko-KR', options);
+
 // 팝업창 표시 함수
 function openPopup(popupClass) {
   var popup = document.getElementsByClassName(popupClass)[0];
