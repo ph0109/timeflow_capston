@@ -37,10 +37,11 @@ function showPopup(message) {
   const popupMessage = document.createElement('div');
   popupMessage.textContent = message;
   
+  // 버튼 있없?
   const closeButton = document.createElement('button');
-  closeButton.textContent = '닫기';
+  closeButton.textContent = '확인';
   closeButton.addEventListener('click', () => {
-    popup.classList.add('fade-out');
+    popup.classList.add('fade-out'); 
     setTimeout(() => {
       popup.remove();
     }, 500);
@@ -49,6 +50,7 @@ function showPopup(message) {
   popup.appendChild(popupMessage);
   popup.appendChild(closeButton);
   document.body.appendChild(popup);
+  popup.style.display = 'block'; // 팝업 창을 보이도록 설정
 }
 
 //폼 제출 이벤트 핸들러
