@@ -9,7 +9,7 @@
 
 <body>
   <div class="chat-container">
-    <div class="date">2024년 5월 1일</div>
+    <div class="date" id="today-date"></div>
     <div class="button-container">
       <button class="create-room-button">방 만들기</button>
       <button class="invite-code-button">초대코드</button>
@@ -17,7 +17,17 @@
     <div class="my-team-container">
         <h2>My Team</h2>
         <p></p>
+      </div>
     </div>
+    <script src="chat.js"></script>
+    <script>
+      // 오늘 날짜 표시
+      var todayDateElement = document.getElementById('today-date');
+      var today = new Date();
+      var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      todayDateElement.innerText = today.toLocaleDateString('ko-KR', options);
+    </script>
+
 
     <!-- 방만들기 팝업창 -->
 <div class="popup" id="popup">
