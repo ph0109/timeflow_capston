@@ -7,30 +7,35 @@ let elFailureMessage = document.querySelector('.failure-message');
 let elInputPassword = document.querySelector('#password');
 let elStrongPasswordMessage = document.querySelector('.strongPassword-message');
 
+//버튼 비활성화
+var elSignUpButton = document.getElementById('signUpButton');
+
 function strongPassword(str) {
   return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{6,20}$/.test(str);
 }
 
-
 elInputUsername.onkeyup = function () {
-  // 값을 입력한 경우
-  if (elInputUsername.value.length !== 0) {
-    if(elInputUsername.value.indexOf('@') == -1) {
-      elSuccessMessage.classList.add('hide');
-      elFailureMessage.classList.remove('hide');
-    }
-    // 조건을 모두 만족할 경우
-    else if(elInputUsername.value!==0 || elInputUsername.value.indexOf('@') == -1) {
-      elSuccessMessage.classList.remove('hide'); // 사용할 수 있는 아이디입니다
-      elFailureMessage.classList.add('hide'); // 실패 메시지가 가려져야 함
-    }
-  }
-  // 값을 입력하지 않은 경우 (지웠을 때)
-  // 모든 메시지를 가린다.
-  else {
-    elSuccessMessage.classList.add('hide');
+  // 이메일 주소가 올바른 형식인지 확인
+  var isValidEmail = validateEmail(elInputUsername.value);
+
+  // 이메일 주소가 올바른 경우
+  if (isValidEmail) {
+    elSuccessMessage.classList.remove('hide');
     elFailureMessage.classList.add('hide');
+    elSignUpButton.disabled = false; // 버튼 활성화
+  } else {
+    elSuccessMessage.classList.add('hide');
+    elFailureMessage.classList.remove('hide');
+    elSignUpButton.disabled = true; // 버튼 비활성화
   }
+}
+
+// 이메일 주소 유효성 검사 함수
+function validateEmail(email) {
+  // 이메일 주소 유효성을 확인하는 코드 작성 (정규표현식 등)
+  // 유효한 이메일 주소인 경우 true 반환, 그렇지 않으면 false 반환
+  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
 }
 
 elInputPassword.onkeyup = function () {
@@ -39,15 +44,18 @@ elInputPassword.onkeyup = function () {
   if (elInputPassword.value.length !== 0) {
     if(strongPassword(elInputPassword.value)) {
       elStrongPasswordMessage.classList.add('hide'); // 실패 메시지가 가려져야 함
+      elSignUpButton.disabled=false;
     }
     else {
       elStrongPasswordMessage.classList.remove('hide'); // 실패 메시지가 보여야 함
+      elSignUpButton.disabled=true;
     }
   }
   // 값을 입력하지 않은 경우 (지웠을 때)
   // 모든 메시지를 가린다.
   else {
     elStrongPasswordMessage.classList.add('hide');
+    elSignUpButton.disabled=true;
   }
 };
 
@@ -147,3 +155,4 @@ function Click2(){
     location.replace("search_list.php?id="+agree_data2);
   }
 }
+
