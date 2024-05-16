@@ -22,14 +22,14 @@ elInputUsername.onkeyup = function () {
   if (isValidEmail) {
     elSuccessMessage.classList.remove('hide');
     elFailureMessage.classList.add('hide');
-    elSignUpButton.disabled = false; // 버튼 활성화
+    //elSignUpButton.disabled = false; // 버튼 활성화
+    elInputUsername.addEventListener('keyup', 'isValidEmail');
   } else {
     elSuccessMessage.classList.add('hide');
     elFailureMessage.classList.remove('hide');
     elSignUpButton.disabled = true; // 버튼 비활성화
   }
 }
-
 // 이메일 주소 유효성 검사 함수
 function validateEmail(email) {
   // 이메일 주소 유효성을 확인하는 코드 작성 (정규표현식 등)
@@ -44,7 +44,7 @@ elInputPassword.onkeyup = function () {
   if (elInputPassword.value.length !== 0) {
     if(strongPassword(elInputPassword.value)) {
       elStrongPasswordMessage.classList.add('hide'); // 실패 메시지가 가려져야 함
-      elSignUpButton.disabled=false;
+      //elSignUpButton.disabled=false;
     }
     else {
       elStrongPasswordMessage.classList.remove('hide'); // 실패 메시지가 보여야 함
