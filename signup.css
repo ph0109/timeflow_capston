@@ -161,3 +161,7 @@ div{
     background-color: blue;
     color:white;
 }
+
+.signUpButton:disabled{
+    background-color: rgb(168, 202, 244);
+}
